@@ -164,9 +164,7 @@ div.footer-container-kiev{
 }
 svg.contact-icon-let{
     display: inline-block;
-    /* border: 1px dotted red; */
     margin-right: 10px;
-    /* vertical-align: middle; */
 }
 
 
@@ -189,9 +187,19 @@ h1.main-title{
     color: var(--white);
 }
 section.main-section{
+    max-width: 1600px;
     padding: 198px 0;
+    margin-left: auto;
+    margin-right: auto;
 
-    background-color: var(--dark-blue);
+    /* background-color: var(--dark-blue); */
+    background-image: 
+    linear-gradient(to bottom, rgba(58, 50, 47, 0.4), rgba(47, 48, 58, 0.4)),
+    url("../images/img.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 div.container-effective-solutions button[type="button"]{                      /*big blue button*/
     font-family: inherit;
