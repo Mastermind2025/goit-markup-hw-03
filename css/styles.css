@@ -76,7 +76,11 @@ li.navigation-item a:hover,
 li.contact-item a:hover{
     text-decoration: none;
     color: var(--color-blue);
+    fill: var(--color-blue);
     transition: var(--transition);
+}
+li.contact-item a:hover {
+    text-decoration: none;
 }
 li.contact-item a{
     font-size: 14px;
@@ -86,6 +90,10 @@ li.contact-item a{
     text-decoration: none;
     color: var(--contact-gray);
     padding: 20px 0;
+    text-indent: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 li.contact-item {
     display: flex;
@@ -155,15 +163,12 @@ div.footer-container-kiev{
     /* padding: 56px 0; */
 }
 svg.contact-icon-let{
-            display: inline-block;
-            width: 12px;
-            height: 12px;
-            stroke-width: 0;
-            stroke: black;
-            fill: red;
-            border: 1px dotted green; 
-     
+    display: inline-block;
+    /* border: 1px dotted red; */
+    margin-right: 10px;
+    /* vertical-align: middle; */
 }
+
 
 
 
