@@ -154,6 +154,16 @@ nav.nav-studio{
 div.footer-container-kiev{
     /* padding: 56px 0; */
 }
+svg.contact-icon-let{
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            stroke-width: 0;
+            stroke: black;
+            fill: red;
+            border: 1px dotted green; 
+     
+}
 
 
 
@@ -277,6 +287,9 @@ div.our-people-block{
 }
 li.our-people-item{
     background-color: #fff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 section.attention-to-details-section-for-background{
    
@@ -322,6 +335,11 @@ li.main-block-big-foto-items{
    /* padding-bottom: 18px; */
    list-style: none;
    }
+li.main-block-big-foto-items:hover {
+    transition: var(--transition);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 div.header-container-web-studio {
        display: flex;
   }
@@ -398,6 +416,9 @@ li.portfolio-many-buttons-item:hover button{
 
     background-color: var(--color-blue);
     color: var(--white);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+        0px 1px 2px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 h2.title-hidden{
     display: none;
